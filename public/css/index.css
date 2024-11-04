@@ -1,0 +1,72 @@
+/* Menu Navegação */
+.navegacao__inicio{
+    font-weight: bolder; 
+    text-decoration: underline;
+}
+
+/* Container Introdução */
+.container__introducao {
+    width: 100%;
+    max-width: 1500px; 
+    padding: 20px;
+    border-radius: 8px;  
+
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+/* Estilos do título */
+.container__introducao-titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+     
+}
+
+/* Estilos do parágrafo de introdução */
+.container__introducao-descricao {
+    font-size: 16px; 
+    text-align: justify;
+    margin-bottom: 20px;
+    overflow-wrap: break-word;
+    margin-right: 2rem;
+       
+}
+
+/* Estilos da lista */
+.container__introducao-lista {
+    text-align: center;
+    list-style-position: inside;
+    max-width: 800px;
+    list-style-type: disc;
+    padding-left: 20px; 
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.container__introducao-calc{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px; 
+     
+    margin-left: auto;
+    margin-right: auto;  
+
+}
+
+.container__introducao-item {
+    margin-bottom: 10px;
+    font-size: 16px; 
+}
+
+/* Estilos dos links */
+.container__introducao-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.container__introducao-link:hover {
+    text-decoration: underline;
+}

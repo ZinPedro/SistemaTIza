@@ -7,23 +7,62 @@
     <title>SistemaTIza - Tecnologia&Informação</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header class="cabecalho">
-        <div class="container">
+        <div class="container__cabecalho">
             <img class="container__logoPUC" src="../images/Logo-PUC.png" alt="Logo da PUC campinas">
+            <h1 class="container__titulo">SisemaTIza</h1>
             <img class="container__logoSite" src="../images/Logo-SistemaTIza.png" alt="Logo do Site">
         </div>
         <div class="navegacao">
             <nav>
                 <ul class="navegacao__menu">
-                    <li class="navegacao__item"><a href="/">Inicio</a></li>
-                    <li class="navegacao__item"><a href="/sobre">Sobre</a></li>
-                    <li class="navegacao__item"><a href="/conteudo">Conteúdo</a></li>
-                    <li class="navegacao__item"><a href="/binaria">Calc.Binária</a></li>
+                    <li class="navegacao__inicio"><a class="navegacao__link" href="/">Inicio</a></li>
+                    <li class="navegacao__base"><a class="navegacao__link" href="/basesNumericas">Bases Numéicas</a></li>
+                    <li class="navegacao__assembly"><a class="navegacao__link" href="/assembly">Assembly</a></li>
+                    <li class="navegacao__cpu"><a class="navegacao__link" href="/cpu">CPU</a></li>
+                    <li class="navegacao__exercicio"><a class="navegacao__link" href="/execicios">Exercicio</a></li>
+                    <li class="navegacao__calc"><a class="navegacao__link" href="/calc">Calc.Binária</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
+    </header> 
+
+
+    <main>
+        
+        <div class="container__introducao">
+            <h1 class="container__introducao-titulo">SistemaTIza</h1>
+            <p class="container__introducao-descricao">
+                Bem-vindo ao SistemaTIza! Este é o seu espaço para aprender sobre a organização de sistemas de computadores de forma prática e eficiente. Aqui você pode aprender sobre:
+            </p>
+            
+            <ul class="container__introducao-lista">
+                <li class="container__introducao-item">Sistemas de Bases Numéricas com Binário e Hexadecimal. <a href="#" class="container__introducao-link">Clique aqui</a></li>
+                <li class="container__introducao-item">A linguagem de programação Assembly(x86). <a href="#" class="container__introducao-link">Clique aqui</a></li>
+                <li class="container__introducao-item">A organização básica de um sistema de computadores. <a href="#" class="container__introducao-link">Clique aqui</a></li>
+                <li class="container__introducao-item">Aprimorar todos esses conceitos com listas de exercícios. <a href="#" class="container__introducao-link">Clique aqui</a></li>
+            </ul> 
+
+            <p class="container__introducao-calc">
+                E ainda ter acesso a uma calculadora de números para números binários, decimais e hexadecimais. <a class="container__introducao-link" href="/calc">Clique aqui</a>
+            </p>
+        </div>
+    </main>
+
+
+    <footer class="rodape">
+        <div class="conteudo-rodape">
+            <p>Pedro Henrique Coan Zin</p>
+            <p>Orientadores: José Matias Lemes e Ricardo Pannain</p>
+            <p>Projeto Integrador - Desenvolvimento Web</p>
+            <img src="../images/Logo-PUC.png" alt="Logo PUC" class="logo-puc">
+        </div>
+    </footer>
 </body>
 </html>
