@@ -1,0 +1,106 @@
+:root {
+    --links__nav:#000;
+    --background-cabecalho: #001E4B;
+    --background-nav: #D0D0D7;
+
+    --background-rodape: #001E4B;
+    --background-principal: #F7F7FF;
+    --background-secundario:#B6DBF2;
+
+    --color-titulos:#000;
+    --color-titulos2:#333;
+    --color-p:#000;
+    --color-p2:#333;
+    --color-link:#007bff;
+}
+
+/* Menu Navegação */
+.navegacao__base{
+    font-weight: bolder; 
+    text-decoration: underline;
+}
+    
+
+.titulo {
+    margin: 2rem;
+    margin-top: 2.5rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-titulos);
+    text-align: center;
+    margin-bottom: 20px;
+     
+}
+
+
+/* Introdução */
+.container__introducao {
+    width: 100%;
+    max-width: 1500px; 
+    padding: 20px;
+    border-radius: 8px;  
+
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.introducao__titulo {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color-titulos2);
+    margin-bottom: 20px;
+}
+
+.introducao__descricao {
+    margin-right: 2rem;
+    font-size: 16px;
+    color: var(--color-p);
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Introdução (Exemplos) */
+
+.intro-exemplos__titulo {
+    margin: 2rem;
+    margin-top: 2.5rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color-titulos);
+    text-align: center; 
+}
+
+.cards__intro-exemplos {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--background-principal)
+}
+
+.intro-exemplos__cartao {
+    background-color: var(--background-secundario);
+    border-radius: 10px;
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-exemplos__cartao-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+.intro-exemplos__cartao-descricao {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.intro-exemplos__cartao-algarismos {
+    font-size: 14px;
+    font-style: italic;
+    color: var(--color-p2);
+}
