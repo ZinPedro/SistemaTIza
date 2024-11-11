@@ -32,24 +32,34 @@
      
 }
 
+[class*="__titulo"] {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color-titulos2);
+    margin-bottom: 20px;
+}
+
+[class*="__descricao"] {
+    margin-right: 2rem;
+    font-size: 16px;
+    color: var(--color-p);
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
 
 /* Introdução */
 .container__introducao {
     width: 100%;
     max-width: 1500px; 
     padding: 20px;
-    border-radius: 8px;  
+    border-radius: 8px;
 
-    margin-left: auto;
-    margin-right: auto;  
+    width: 900px;
+    margin: 0 auto; 
 }
 
-.introducao__titulo {
-    font-size: 28px;
-    font-weight: bold;
-    color: var(--color-titulos2);
-    margin-bottom: 20px;
-}
+ 
 
 .introducao__descricao {
     margin-right: 2rem;
@@ -103,4 +113,77 @@
     font-size: 14px;
     font-style: italic;
     color: var(--color-p2);
+}
+
+
+/* Binaria */
+.container__binaria { 
+    padding: 20px; 
+    width: 900px;
+    margin: 0 auto;
+}
+
+.binaria__organizacao-background {
+    background-color: var(--background-secundario); /* Light blue background matching the image */ 
+    width: 100%; 
+}
+
+.binaria__organizacao {
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 900px;
+    margin: 0 auto;  
+}
+
+/* Title of the organization section */
+.binaria__organizacao-titulo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Container for the cards, using flex for layout */
+.cards__orgBinaria {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px; /* Limit width for better alignment */
+    gap: 50px; /* Space between the cards */
+}
+
+/* Individual card styling */
+.orgBinaria__cartao {
+    background-color: #ffffff; /* White background for each card */
+    border-radius: 10px;
+    padding: 15px;
+    width: 45%; /* Card width to fit two cards side by side */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    text-align: center;
+}
+
+/* Card title styling */
+.orgBinaria__cartao-titulo {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Card description text styling */
+.orgBinaria__cartao-descricao {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Binary number styling */
+.orgBinaria__cartao-algarismos {
+    font-size: 1.2em;
+    color: #333;
+    font-style: italic;
 }

@@ -10,14 +10,16 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--background-principal); 
+    background-color: var(--background-principal);
 }
+ 
 
 /*cabecalho*/
 
 .cabecalho {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .container__cabecalho {
@@ -29,6 +31,7 @@ body {
     padding: 1.5rem;
     box-shadow: 0 0 10px #000;
     z-index: 2;
+    
 }
 
 .container__logoPUC {
@@ -36,7 +39,7 @@ body {
     height: 5.5rem;
 }
 
-.container__titulo {
+.container_titulo {
     color: var(--background-principal);
     font-family: 'Inknut Antiqua', serif;
     font-size: 1.8rem;
