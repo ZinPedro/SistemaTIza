@@ -115,11 +115,6 @@
     margin: 0 auto;
 }
 
-.binaria__organizacao-background {
-    background-color: var(--background-secundario); /* Light blue background matching the image */ 
-    width: 100%; 
-}
-
 .binaria__organizacao {
     padding: 20px;
     margin-top: 20px;
@@ -269,4 +264,134 @@ em {
     text-decoration: underline;
     color: var(--color-link);
     margin: 0;
+}
+
+.sinalizacao__extencao{
+    margin: 30px 20px;
+}
+
+.extencao__titulo {
+    font-style: italic;
+    font-size: 24px;
+}
+
+
+.extencao__demonstracao {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px; /* Espaçamento entre os blocos */
+    max-width: 1000px;
+    margin: 40px auto; /* Centraliza o contêiner */
+    padding: 20px;
+}
+
+/* Bloco para "Soma e Magnetude" e "Complemento de 2" */
+.extencao__SeM, .extencao__C2 {
+    flex: 1;
+    max-width: 450px;
+}
+
+/* Títulos dos blocos */
+.extencao__SeM__titulo, .extencao__C2__titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Descrição do texto */
+.extencao__SeM__descricao, .extencao__C2__descricao {
+    max-width: 70%;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+/* Imagens */
+.extencao__SeM__img, .extencao__C2__img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/*Operações*/
+
+.container__operacoes{
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.operacoes__titulo{
+    font-size: 30px;
+}
+
+.AdSub__titulo {
+    font-size: 26px;
+    font-style: italic;
+}
+
+.AdSub__descricao {
+    font-size: 20px;
+}
+
+/* Estilos gerais para o contêiner */
+.RegrasAd__cartoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Layout com duas colunas */
+    gap: 60px; /* Espaçamento entre os cartões */
+    max-width: 1200px;
+    margin: 40px auto; /* Centraliza o contêiner */
+    padding: 20px;
+}
+
+/* Título principal */
+.RegrasAd__titulo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Estilos para os cartões */
+.RegrasAd__cartao {
+    background-color: var(--background-principal);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Títulos dos cartões */
+.RegrasAd__cartao__titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Descrição do cartão */
+.RegrasAd__cartao__descricao {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Imagens dentro dos cartões */
+.RegrasAd__cartao__img {
+    max-width: 200px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.img00, .img11 {
+    width: 20%;
 }

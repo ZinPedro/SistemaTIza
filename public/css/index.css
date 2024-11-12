@@ -89,12 +89,6 @@
 
     /* Sobre */
 
-.sobre__background { 
-    background-color: var(--background-secundario); 
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%; 
-}
-
 .container__sobre {  
     padding: 20px; 
     width: 800px;

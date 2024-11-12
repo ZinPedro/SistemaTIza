@@ -3,9 +3,9 @@
     --background-cabecalho: #001E4B;
     --background-nav: #D0D0D7;
 
-    --background-rodape: #001E4B;
-
+    --background-rodape: #001E4B; 
     --background-principal: #F7F7FF;
+    --background-secundario:#B6DBF2;
 
     --color-titulos:#000;
     --color-titulos2:#333;
@@ -17,6 +17,11 @@
 body {
     font-family: Arial, sans-serif;
     background-color: var(--background-principal);
+}
+
+[class*="__background"] {
+    background-color: var(--background-secundario);
+    width: 100%;
 }
  
 
