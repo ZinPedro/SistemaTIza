@@ -16,7 +16,7 @@
     <header class="cabecalho">
         <div class="container__cabecalho">
             <img class="container__logoPUC" src="../images/Logo-PUC.png" alt="Logo da PUC campinas">
-            <h1 class="container_titulo">SisemaTIza</h1>
+            <h1 class="container__principalTitulo">SisemaTIza</h1>
             <img class="container__logoSite" src="../images/Logo-SistemaTIza.png" alt="Logo do Site">
         </div>
         <div class="navegacao">
@@ -82,7 +82,7 @@
                     <div class="orgBinaria__cartao">
                         <h3 class="orgBinaria__cartao-titulo">Bit</h3>
                         <p class="orgBinaria__cartao-descricao">BInary digiT - Digito binário (0 ou 1) - elemento base do sistema</p>
-                        <p class="orgBinaria__cartao-algarismos"><em>1111000</em>0</p>
+                        <p class="orgBinaria__cartao-algarismos">1111000<em>0</em></p>
                     </div>
 
                     <div class="orgBinaria__cartao">
@@ -94,6 +94,24 @@
             </div>
         </div>
 
+        <div class="container__conversoes">
+            <h2 class="conversoes__titulo">Conversões</h2>
+            <div class="conversoes__bindec">
+                <h3 class="bindec__titulo">Binário > Decimal</h2>
+                <p class="bindec__descricao">
+                    A representação dos números binários é feita de maneira posicional, onde o primeiro algarismo equivale a X(0 ou 1) vezes 2^0, o segundo X(0 ou 1) vezes 2^1, o terceiro X(0 ou 1) vezes 2^2 e assim por diante.
+                </p>
+                <img class="bindec__img" src="../images/Bases/BinDec.png" alt="Demonstração do cálculo para conversão de binário para decimal">
+            </div>
+
+            <div class="conversoes__decbin">
+                <h3 class="decbin__titulo">Decimal > Binário</h2>
+                <p class="decbin__descricao">
+                    A conversão inversa, do número decimal para o número binário pode ser feita utilizando a técnica de divisões sucessivas, que consiste em dividir o número por dois até que não seja mais possível dividir o dividendo por dois, então o valor do último quociente é o primeiro (bit mais significativo (MSB)) bit, e os restos das divisões são os seguintes, como no exemplo:                </p>
+                <img class="decbin__img" src="../images/Bases/DecBin.png" alt="Demonstração do cálculo para conversão de decimal para binário">
+            </div>
+        </div>
+
 
         
 
@@ -101,9 +119,7 @@
         
 
 
-    </main>
-
-
+    </main> 
     <footer class="rodape">
         <div class="conteudo-rodape">
             <p>Pedro Henrique Coan Zin</p>

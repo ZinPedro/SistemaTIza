@@ -6,6 +6,12 @@
     --background-rodape: #001E4B;
 
     --background-principal: #F7F7FF;
+
+    --color-titulos:#000;
+    --color-titulos2:#333;
+    --color-p:#000;
+    --color-p2:#333;
+    --color-link:#007bff;
 }
 
 body {
@@ -39,7 +45,7 @@ body {
     height: 5.5rem;
 }
 
-.container_titulo {
+.container__principalTitulo {
     color: var(--background-principal);
     font-family: 'Inknut Antiqua', serif;
     font-size: 1.8rem;

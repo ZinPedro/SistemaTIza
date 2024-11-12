@@ -24,24 +24,23 @@
 .titulo {
     margin: 2rem;
     margin-top: 2.5rem;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     color: var(--color-titulos);
     text-align: center;
     margin-bottom: 20px;
-     
 }
 
 [class*="__titulo"] {
     font-size: 28px;
     font-weight: bold;
-    color: var(--color-titulos2);
+    color: var(--color-titulos);
     margin-bottom: 20px;
 }
 
 [class*="__descricao"] {
     margin-right: 2rem;
-    font-size: 16px;
+    font-size: 19px;
     color: var(--color-p);
     text-align: justify;
     margin-bottom: 20px;
@@ -57,16 +56,6 @@
 
     width: 900px;
     margin: 0 auto; 
-}
-
- 
-
-.introducao__descricao {
-    margin-right: 2rem;
-    font-size: 16px;
-    color: var(--color-p);
-    text-align: justify;
-    margin-bottom: 20px;
 }
 
 /* Introdução (Exemplos) */
@@ -143,7 +132,7 @@
 .binaria__organizacao-titulo {
     font-size: 1.5em;
     font-weight: bold;
-    color: #333;
+    color: var(--color-titulos2);
     margin-bottom: 20px;
     text-align: center;
 }
@@ -159,7 +148,7 @@
 
 /* Individual card styling */
 .orgBinaria__cartao {
-    background-color: #ffffff; /* White background for each card */
+    background-color: var(--background-principal);
     border-radius: 10px;
     padding: 15px;
     width: 45%; /* Card width to fit two cards side by side */
@@ -170,20 +159,57 @@
 /* Card title styling */
 .orgBinaria__cartao-titulo {
     font-size: 1.2em;
-    color: #333;
+    color: var(--color-titulos);
     margin-bottom: 10px;
 }
 
 /* Card description text styling */
 .orgBinaria__cartao-descricao {
     font-size: 0.9em;
-    color: #666;
+    color: var(--color-p2);
     margin-bottom: 15px;
 }
 
 /* Binary number styling */
 .orgBinaria__cartao-algarismos {
     font-size: 1.2em;
-    color: #333;
+    color: var(--color-p);
     font-style: italic;
+    padding: 5px;
+}
+
+em {
+    padding: 3px;
+    background-color: var(--background-secundario);
+    border-radius: 10px;
+
+}
+
+/*Conversoes*/
+.container__conversoes { 
+    padding: 50px 20px; 
+    width: 900px;
+    margin: 0 auto;
+}
+
+.conversoes__titulo {
+    font-size: 30px;
+}
+
+.bindec__titulo {
+    font-size: 26px;
+    font-style: italic;
+}
+
+.bindec__img {
+    width: 100%;
+}
+
+.decbin__titulo {
+    font-size: 26px;
+    font-style: italic;
+}
+
+.decbin__img {
+    width: 100%;
 }
