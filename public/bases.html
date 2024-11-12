@@ -48,19 +48,19 @@
                 <div class="cards__intro-exemplos">
 
                     <div class="intro-exemplos__cartao">
-                        <h3 class="intro-exemplos__cartao-titulo">Números Binários</h3>
+                        <h4 class="intro-exemplos__cartao-titulo">Números Binários</h4>
                         <p class="intro-exemplos__cartao-descricao">só pode se utilizar de dois algarismos para representar qualquer número</p>
                         <p class="intro-exemplos__cartao-algarismos"><em>sendo eles:</em> 0 e 1</p>
                     </div>
 
                     <div class="intro-exemplos__cartao">
-                        <h3 class="intro-exemplos__cartao-titulo">Números Octais</h3>
+                        <h4 class="intro-exemplos__cartao-titulo">Números Octais</h4>
                         <p class="intro-exemplos__cartao-descricao">só pode se utilizar de 8 algarismos para representar qualquer número</p>
                         <p class="intro-exemplos__cartao-algarismos"><em>sendo eles:</em> 0, 1, 2, 3, 4, 5, 6, 7</p>
                     </div>
 
                     <div class="intro-exemplos__cartao">
-                        <h3 class="intro-exemplos__cartao-titulo">Números Hexadecimais</h3>
+                        <h4 class="intro-exemplos__cartao-titulo">Números Hexadecimais</h4>
                         <p class="intro-exemplos__cartao-descricao">pode se utilizar de 16 algarismos/símbolos para representar qualquer número</p>
                         <p class="intro-exemplos__cartao-algarismos"><em>sendo eles:</em> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, F</p>
                     </div>
@@ -76,17 +76,17 @@
         </div>
         <div class="binaria__organizacao-background">
             <div class="binaria__organizacao">
-                <h3 class="binaria__organizacao-titulo"> Oranização Binária</h3> 
+                <h3 class="binaria__organizacao-titulo">Oranização Binária</h3> 
                 <div class="cards__orgBinaria">
 
                     <div class="orgBinaria__cartao">
-                        <h3 class="orgBinaria__cartao-titulo">Bit</h3>
+                        <h4 class="orgBinaria__cartao-titulo">Bit</h4>
                         <p class="orgBinaria__cartao-descricao">BInary digiT - Digito binário (0 ou 1) - elemento base do sistema</p>
                         <p class="orgBinaria__cartao-algarismos">1111000<em>0</em></p>
                     </div>
 
                     <div class="orgBinaria__cartao">
-                        <h3 class="orgBinaria__cartao-titulo">Byte</h3>
+                        <h4 class="orgBinaria__cartao-titulo">Byte</h4>
                         <p class="orgBinaria__cartao-descricao">conjunto de 8 Bits tendo 255 possibilidades de representação de diferentes numeros</p>
                         <p class="orgBinaria__cartao-algarismos"><em>11110000</em></p>
                     </div> 
@@ -112,13 +112,41 @@
             </div>
         </div>
 
-
-        
-
-
-        
-
-
+        <div class="container__sinalizacao">
+            <h2 class="sinalizacao__titulo">Sinalização em Binários</h2>
+            <p class="sinalizacao__descricao">
+                Para números binários com sinalizção (negativos e positivos) existem duas maneiras de representação mais conhecidas que são: 
+            </p>
+            <ol class="sinalizacao__lista">
+                <li><p>Sinal e Magnetude</p></li>
+                <li><p>Complemento de 2</p></li>
+            </ol>
+            <div class="sinalizacao__SeM">
+                <h3 class="SeM__titulo">Sinal e Magnetude (S&M)</h3>
+                <p class="SeM__descricao">
+                    No metódo de sinal e magnetude o bit mais significativo representa o sinal do número ao invés de representar um valor, onde caso seja  1 o número é negativo e caso seja 0, é positivo. 
+                </p>
+                <img src="../images/Bases/SeM.png" alt="Demonstração de um número binário positivo e um negativo em Sinal e Magnetude" class="SeM__img">
+            </div>
+            <div class="sinalizacao__C2">
+                <h3 class="C2__titulo">Sinal e Magnetude (S&M)</h3>
+                <p class="C2__descricao">
+                    No metódo de sinal e magnetude o bit mais significativo representa o sinal do número ao invés de representar um valor, onde caso seja  1 o número é negativo e caso seja 0, é positivo. 
+                </p>
+                <img src="../images/Bases/C2.png" alt="Demonstração de um número binário positivo e um negativo em Complemento de 2" class="C2__img">
+                <div class="C2__conversao">
+                    <h4 class="C2__conversao__titulo">Conversão Positivo <> Negativo em Complemento de dois (C2)</h4>
+                    <p class="C2__conversao__descricao">
+                        Para converter um número negativo para positivo, e vice-versa, é necessário saber como funciona a soma de números binários, então se você não sabe <a class="C2__conversao__descricao-link">Clique Aqui</a> para ir para o setor de operações e depois volte para entender a conversão (só e necessário saber a soma).
+                    </p>
+                    <p class="C2__conversao__descricao">
+                        Para fazer está conversão basta fazer o “complemento de 1” do número, ou seja, inverter o binário (onde é 1 vira 0 e onde é 0 vira 1) e depois somar um ao resultado.
+                    </p>
+                    <img src="../images/Bases/C2_conversao.png" alt="Demonstração do cáculo para tranformar números em Complemento de 2 de positivos para negativos e vice-versa" class="C2__conversao__img">
+                </div>
+            </div>
+        </div>
+ 
     </main> 
     <footer class="rodape">
         <div class="conteudo-rodape">

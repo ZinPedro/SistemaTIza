@@ -46,6 +46,9 @@
     margin-bottom: 20px;
 }
 
+[class*="__img"] {
+    width: 100%;
+}
 
 /* Introdução */
 .container__introducao {
@@ -201,15 +204,69 @@ em {
     font-style: italic;
 }
 
-.bindec__img {
-    width: 100%;
-}
-
 .decbin__titulo {
     font-size: 26px;
     font-style: italic;
 }
 
-.decbin__img {
-    width: 100%;
+/*Sinalizacao*/
+.container__sinalizacao{
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sinalizacao__lista {
+    list-style-type: decimal; /* Números (1, 2, 3...) */
+    margin: 0 30px;
+    padding-left: 20px; /* Espaçamento à esquerda para os números */
+    color: var(--color-p);
+    font-size: 19px;
+}
+
+.sinalizacao__lista li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.sinalizacao__SeM{
+    margin: 30px 20px;
+}
+
+.SeM__titulo{
+    font-size: 24px;
+    font-style: italic;
+}
+
+.SeM__descricao{
+    font-size: 16px;
+}
+
+.sinalizacao__C2{
+    margin: 30px 20px;
+}
+
+.C2__titulo{
+    font-style: italic;
+    font-size: 24px;
+}
+
+.C2__descricao{
+    font-size: 16px;
+}
+ 
+.C2__conversao__titulo {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.C2__conversao__descricao{
+    font-size: 16px;
+}
+
+.C2__conversao__descricao-link{
+    font-size: 16px;
+    text-decoration: underline;
+    color: var(--color-link);
+    margin: 0;
 }
