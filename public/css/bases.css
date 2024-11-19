@@ -356,6 +356,7 @@ em {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 40px;
+    padding-top: 20px;
 }
 
 /* Estilos para os cartões */
@@ -499,4 +500,19 @@ em {
     font-size: 26px;
     padding-left: 60px;
 
+}
+
+/*Mult e Div*/
+
+.container__multdiv { 
+    padding: 50px 20px; 
+    width: 900px;
+    margin: 0 auto;
+}
+
+.multdiv__titulo{
+    font-style: italic;
+}
+.multdiv__descricao{
+    margin-left: 10px;
 }
