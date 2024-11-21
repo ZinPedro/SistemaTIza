@@ -516,3 +516,35 @@ em {
 .multdiv__descricao{
     margin-left: 10px;
 }
+
+/*Ponto Flutuante*/
+
+.container__pFlutuante{
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+.pFlutuante__subtitulo {
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--color-titulos);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.pFlutuante-explicacao__titulo {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.pFlutuante-demonstracao__titulo{
+    font-size: 26px;
+    font-style: italic;
+}
+
+.pFlutuante-demonstracao-deslocamento__titulo {
+    font-size: 26px;
+    font-weight: lighter;
+    font-style: italic;
+}

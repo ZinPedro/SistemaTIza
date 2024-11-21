@@ -222,7 +222,7 @@
                     situações possíveis em cada etapa da conta, situações essas exemplificadas nos cards abaixo:
                 </p>
             </div>
-        </div>
+            </div>
             <div class="RegrasAd__background">
                 <div class="container__operacoes">
                     <h4 class="RegrasAd__titulo">Regras Adição</h4>
@@ -260,60 +260,88 @@
                 </div>
             </div>
 
-        <div class="container__overflow">
-            <h2 class="overflow__titulo">Overflow</h2>
-            <p class="overflow__descricao">Overflow representa um erro no resultado da operação quando o sinal do número (pos/neg) não corresponde ao resultado esperado, o que ocorre normamente você têm um carry bit (“vai um”) a mais da quantidade de bits da operação, assim o resultado da soma de 2 números positivos pode gerar um número negativo ou de dois negativos gerando um positivo ou, no caso da subtração, subtrair um número negativo de um positivo e dar um número negativo ou subtrair um positivo de um negativo e dar positivo.</p>
-        </div>
+            <div class="container__overflow">
+                <h2 class="overflow__titulo">Overflow</h2>
+                <p class="overflow__descricao">Overflow representa um erro no resultado da operação quando o sinal do número (pos/neg) não corresponde ao resultado esperado, o que ocorre normamente você têm um carry bit (“vai um”) a mais da quantidade de bits da operação, assim o resultado da soma de 2 números positivos pode gerar um número negativo ou de dois negativos gerando um positivo ou, no caso da subtração, subtrair um número negativo de um positivo e dar um número negativo ou subtrair um positivo de um negativo e dar positivo.</p>
+            </div>
 
-        <div class="container__adicaoSubtracao">
-            <div class="adicaoSubtracao__item">
-                <h4 class="adicaoSubtracao__titulo">Adição e Subtração para<br>números em Sinal & Magnetude</h4>
-                <p class="adicaoSubtracao__descricao">
-                    No caso da adição e subtração com números em Sinal & Magnetude as contas possuem grande semelhança com as feitas com números decimais
-                </p>
-                <p class="adicaoSubtracao__exemplo">Exemplos</p>
-                <p class="adicaoSubtracao__conta">1) 37 + 15 = 52</p>
-                <img class="adicaoSubtracao__img" src="../images/Bases/adicao_sem.png" alt="Demonstração de conta para adição de números binários em Sinal e Magnetude">
-                <p class="adicaoSubtracao__conta">2) 43 - 28 = 15</p>
-                <p class="adicaoSubtracao__descricao">
-                    No caso da subtração, a conta é feita que nem as de números decimais, onde, se o algarismo do número maior (de cima) for menor que o de baixo ele recebe um carry emprestado do algarismo seguinte. 
-                </p>
-                <div class="adicaoSubtracao__regraSeM">
-                    <div class="regraSeM__caixa">
-                        <p>0 - 0 = 0<br>1 - 0 = 1<br>1 - 1 = 0</p>
+            <div class="container__adicaoSubtracao">
+                <div class="adicaoSubtracao__item">
+                    <h4 class="adicaoSubtracao__titulo">Adição e Subtração para<br>números em Sinal & Magnetude</h4>
+                    <p class="adicaoSubtracao__descricao">
+                        No caso da adição e subtração com números em Sinal & Magnetude as contas possuem grande semelhança com as feitas com números decimais
+                    </p>
+                    <p class="adicaoSubtracao__exemplo">Exemplos</p>
+                    <p class="adicaoSubtracao__conta">1) 37 + 15 = 52</p>
+                    <img class="adicaoSubtracao__img" src="../images/Bases/adicao_sem.png" alt="Demonstração de conta para adição de números binários em Sinal e Magnetude">
+                    <p class="adicaoSubtracao__conta">2) 43 - 28 = 15</p>
+                    <p class="adicaoSubtracao__descricao">
+                        No caso da subtração, a conta é feita que nem as de números decimais, onde, se o algarismo do número maior (de cima) for menor que o de baixo ele recebe um carry emprestado do algarismo seguinte. 
+                    </p>
+                    <div class="adicaoSubtracao__regraSeM">
+                        <div class="regraSeM__caixa">
+                            <p>0 - 0 = 0<br>1 - 0 = 1<br>1 - 1 = 0</p>
+                        </div>
+                        <div class="regraSeM__descricao">
+                            <p>
+                                Quando à necessidade do 1 emprestar ao 0, o 0 se torna 10 (10 em binário = 2 em decimal). Já no caso do 0 emprestar a um 0, é necessário que ele recorra a um próximo 1 no número para se tornar 10 e depois empreste ao 0 seguinte, fazendo com que o 0 seguinte se torne 10 e o que emprestou se torne um 1. Como no Exemplo:
+                            </p>
+                        </div>
                     </div>
-                    <div class="regraSeM__descricao">
-                        <p>
-                            Quando à necessidade do 1 emprestar ao 0, o 0 se torna 10 (10 em binário = 2 em decimal). Já no caso do 0 emprestar a um 0, é necessário que ele recorra a um próximo 1 no número para se tornar 10 e depois empreste ao 0 seguinte, fazendo com que o 0 seguinte se torne 10 e o que emprestou se torne um 1. Como no Exemplo:
-                        </p>
-                    </div>
+                    <img class="adicaoSubtracao__img" src="../images/Bases/subtracao_sem.png" alt="Demonstração de conta para subtração de números binários em Sinal e Magnetude">
+                    <p class="adicaoSubtracao__conta">3) 98 + 163 = 33</p>
+                    <img class="adicaoSubtracao__img" src="../images/Bases/overflow_sem.png" alt="Demonstração de conta para adição de números binários em Sinal e Magnetude em que o resultado dá Overflow">
+                    <p class="adicaoSubtracao__descricao AdSubOverflow">Overflow</p>
                 </div>
-                <img class="adicaoSubtracao__img" src="../images/Bases/subtracao_sem.png" alt="Demonstração de conta para subtração de números binários em Sinal e Magnetude">
-                <p class="adicaoSubtracao__conta">3) 98 + 163 = 33</p>
-                <img class="adicaoSubtracao__img" src="../images/Bases/overflow_sem.png" alt="Demonstração de conta para adição de números binários em Sinal e Magnetude em que o resultado dá Overflow">
-                <p class="adicaoSubtracao__descricao AdSubOverflow">Overflow</p>
+            
+                <div class="adicaoSubtracao__item">
+                    <h4 class="adicaoSubtracao__titulo">Adição e Subtração para<br>números em Complemento de 2</h4>
+                    <p class="adicaoSubtracao__descricao">
+                        Já no caso do Complemento de 2, a subtração é feita pela soma de um número binário positivo e um número binário negativo.
+                    </p>
+                    <p class="adicaoSubtracao__exemplo">Exemplos</p>
+                    <p class="adicaoSubtracao__conta">1) 45 + 22 = 67</p>
+                    <img class="adicaoSubtracao__img" src="../images/Bases/adicao_c2.png" alt="Demonstração de conta para adição de números binários em Complemento de 2">
+                    <p class="adicaoSubtracao__conta">2) 67 - 39 = 28</p>
+                    <img class="adicaoSubtracao__img" src="../images/Bases/subtracao_c2.png" alt="Demonstração de conta para subtração de números binários em Complemento de 2">
+                    <p class="adicaoSubtracao__conta">3) - 79 - 72 = -151</p>
+                    <img class="adicaoSubtracao__img" src="../images/Bases/overflow_c2.png" alt="Demonstração de conta para adição de números binários em Complemento de 2 em que o reultado dá Overflow">
+                    <p class="adicaoSubtracao__descricao AdSubOverflow">Overflow</p>
+                </div>
             </div>
-        
-            <div class="adicaoSubtracao__item">
-                <h4 class="adicaoSubtracao__titulo">Adição e Subtração para<br>números em Complemento de 2</h4>
-                <p class="adicaoSubtracao__descricao">
-                    Já no caso do Complemento de 2, a subtração é feita pela soma de um número binário positivo e um número binário negativo.
-                </p>
-                <p class="adicaoSubtracao__exemplo">Exemplos</p>
-                <p class="adicaoSubtracao__conta">1) 45 + 22 = 67</p>
-                <img class="adicaoSubtracao__img" src="../images/Bases/adicao_c2.png" alt="Demonstração de conta para adição de números binários em Complemento de 2">
-                <p class="adicaoSubtracao__conta">2) 67 - 39 = 28</p>
-                <img class="adicaoSubtracao__img" src="../images/Bases/subtracao_c2.png" alt="Demonstração de conta para subtração de números binários em Complemento de 2">
-                <p class="adicaoSubtracao__conta">3) - 79 - 72 = -151</p>
-                <img class="adicaoSubtracao__img" src="../images/Bases/overflow_c2.png" alt="Demonstração de conta para adição de números binários em Complemento de 2 em que o reultado dá Overflow">
-                <p class="adicaoSubtracao__descricao AdSubOverflow">Overflow</p>
-            </div>
-        </div>
 
-        <div class="container__multdiv">
-            <h3 class="multdiv__titulo">Multiplicação e Divisão</h3>
-            <p class="multdiv__descricao">As contas de Multiplicação e divisão com números binários são bem semelhantes as que aprendemos na escola com os decimais, a única diferença é que todas as operações são com 0s e 1s.</p>
-            <img src="../images/Bases/multdiv.png" alt="Demonstração de conta para multiplicação e divisão de números binários" class="multdiv__img">
+            <div class="container__multdiv">
+                <h3 class="multdiv__titulo">Multiplicação e Divisão</h3>
+                <p class="multdiv__descricao">As contas de Multiplicação e divisão com números binários são bem semelhantes as que aprendemos na escola com os decimais, a única diferença é que todas as operações são com 0s e 1s.</p>
+                <img src="../images/Bases/multdiv.png" alt="Demonstração de conta para multiplicação e divisão de números binários" class="multdiv__img">
+            </div>
+
+        <div class="container__pFlutuante">
+            <h2 class="pFlutuante__titulo">Ponto Flutuante (Representação de números binários)</h2>
+            <h3 class="pFlutuante__subtitulo">Padrão IEEE 754</h3>
+            <p class="pFlutuante__descricao">A representação de números binários, pode ser feita pelo método de ponto flutuante do padrão IEEE 754,  esse método pode ser feito em precisão simples e precisão dupla e pode representar números inteiros ou fracionários, no caso da precisão simples, são 31 bits onde o primeiros significa o sinal, os 8 seguintes o expoente em excesso e os restantes a mantissa, em precisão dupla são 63 bits onde o primeiro é, também, o sinal, os 11 seguintes o exponte em excesso e os 52 restantes a mantissa.</p>
+            
+            <div class="pFlutuante__explicacao">
+                <h4 class="pFlutuante-explicacao__titulo">Bit de Sinal</h4>
+                <p class="pFlutuante-explicacao__descricao">O bit de sinal, como o próprio nome já diz, representa o sinal do número, onde, 1 é negativo e 0 é positivo</p>
+
+                <h4 class="pFlutuante-explicacao__titulo">Expoente em Excesso</h4>
+                <p class="pFlutuante-explicacao__descricao">O expoente em excesso é composto por 8 bits e é um elemento essencial para realização da conta, ele basicamente representa uma Notação Científica dos números binários, em que, com ele é possível fazer uma conta para indentificar o exponte da Notação.Na conta, em precisão simples, é usado como referencia o número 127, no qual representa a potência real de 0 na notação, assim, os expontes variam entre +128 e -127 ( já que em 8 bits o valor máximo é 255), então é subtraído 127 do valor representado no exponte em excesso, obtendo assim a potência real utilizada na Notação Científica. Já no caso da precisão dupla, o valor 1023 representa a potência real de 0, senddo asim, os expoentes variam de +1024 à -1023 ( já que em 11 bits o valor máximo é 2047), então o valor para utilizar de referência na subtração é o 1023.</p>
+
+                <h4 class="pFlutuante-explicacao__titulo">Mantissa</h4>
+                <p class="pFlutuante-explicacao__descricao">Na mantissa ficam os valores referente ao próprio número.</p>
+            </div>
+            <div class="pFlutuante__demonstracao">
+                <h3 class="pFlutuante-demonstracao__titulo">Precisão Simples:</h3>
+                <img class="pFlutuante-demonstracao__img" src="../images/Bases/pflutuante_simples.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
+                <h4 class="pFlutuante-demonstracao-deslocamento__titulo">Deslocamento:</h4>
+                <p class="pFlutuante-demonstracao-deslocamento__descricao">Obs: É como se fosse uma notação científica, mas em binário</p>
+                <img class="pFlutuante-demonstracao__img" src="../images/Bases/pflutuante_simples_deslocamento.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
+                <h3 class="pFlutuante-demonstracao__titulo">Precisão Dupla:</h3>
+                <img class="pFlutuante-demonstracao__img" src="../images/Bases/pflutuante_dupla.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
+                <h4 class="pFlutuante-demonstracao-deslocamento__titulo">Deslocamento:</h4>
+                <img class="pFlutuante-demonstracao__img" src="../images/Bases/pflutuante_dupla_deslocamento.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
+            </div>
         </div>
 
 
