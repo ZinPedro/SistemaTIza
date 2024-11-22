@@ -1,4 +1,4 @@
-# **Site SistemaTIza.**
+# **Site SistemaTIza**
 ## Aluno: Pedro Henrique Coan Zin
 ## Orientadores: José Matias Lemes Filho e Ricardo Pannain
 
