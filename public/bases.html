@@ -170,8 +170,7 @@
                     <h4 class="C2__conversao__titulo">Conversão Positivo <> Negativo em Complemento de dois (C2)</h4>
                     <p class="C2__conversao__descricao">
                         Para converter um número negativo para positivo, e vice-versa, é necessário saber como funciona
-                        a soma de números binários, então se você não sabe <a
-                            class="C2__conversao__descricao-link">Clique Aqui</a> para ir para o setor de operações e
+                        a soma de números binários, então se você não sabe <a class="C2__conversao__descricao-link" href="#operacoes-ancora">Clique Aqui</a> para ir para o setor de operações e
                         depois volte para entender a conversão (só e necessário saber a soma).
                     </p>
                     <p class="C2__conversao__descricao">
@@ -183,7 +182,7 @@
                         class="C2__conversao__img">
                 </div>
             </div>
-            <div class="sinalizacao__extencao">
+            <div class="sinalizacao__extencao" id="estencao-ancora">
                 <h3 class="extencao__titulo">Extenção de Bits</h3>
                 <p class="extencao__descricao">
                     A extenção de bits, nada mais é, que aumentar ou diminuir os bits de um número sem alterar o valor
@@ -213,7 +212,7 @@
             </div>
         </div>
 
-        <div class="container__operacoes">
+        <div class="container__operacoes" id="operacoes-ancora">
             <h2 class="operacoes__titulo">Operações</h2>
             <div class="operacoes__AdSub">
                 <h3 class="AdSub__titulo">Adição e Subtração</h3>
@@ -344,9 +343,80 @@
             </div>
         </div>
 
+        <div class="container__hexadecimal">
+            <h2 class="hexadecimal__titulo">Hexadecimais</h2>
+            <h3 class="hexadecimal__subtitulo">Conversões</h3>
+            <h3 class="hexadecimal__titulo-conversoes">Decimal <> Hexadecimal</h3>
 
 
+            <div class="hexadecimal__hexdec">
+                <h3 class="hexdec__titulo">Hexadecimal > Decimal  </h3>
+                <p class="hexdec__descricao">A representação dos números hexadecimais também é feita de maneira posicional, onde o primeiro algarismo equivale a X(0 a F) vezes 16^0, o segundo X(0 a F) vezes 16^1, o terceiro X(0 a F) vezes 16^2 e assim por diante.</p>
+                <div class="hexdec__demontracao">
+                    <ul class="hexdec__conversoes">
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">0 = 0</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">1 = 1</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">2 = 2</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">3 = 3</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">4 = 4</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">5 = 5</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">6 = 6</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">7 = 7</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">8 = 8</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">9 = 9</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">A = 10</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">B = 11</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">C = 12</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">D = 13</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">E = 14</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">F = 15</p></li>
+                    </ul>
 
+                    <img class="hexdec__img" src="../images/Bases/hexdec.png" alt="Demonstração da conta para conversão de um número hexadecimal para decimal.">
+                </div>
+            </div>
+
+            <div class="hexadecimal__dechex">
+                <h3 class="dechex__titulo">Decimal > Hexadecimal</h3>
+                <p class="dechex__descricao">A conversão inversa, do número decimal para o número hexadecimal pode ser feita utilizando a técnica de divisões sucessivas, que consiste em dividir o número por 16 até que não seja mais possível dividir o dividendo por 16, então o valor do último quociente é o primeiro (bit mais significativo (MSB)) bit, e os restos das divisões são os seguintes, como no exemplo:</p>
+                <img src="../images/Bases/dechex.png" alt="Demonstração da conta para conversão de um número decimal para hexadecimal." class="dechex__img">
+            </div>
+
+            <h3 class="hexadecimal__titulo-conversoes">Binário <> Hexadecimal</h3>
+
+            <div class="hexadecimal__hexdec">
+                <h3 class="hexdec__titulo">Hexadecimal > Binário</h3>
+                <p class="hexdec__descricao">A conversão de números hexadecimais para binários é bem simples, basta pegar cada digito hexadecimal e transformar em binário, um por vez, gerando assim um número binário de 4 algarismos, depois basta organizalos na mesma ordem dos seus respectivos números hexadecimais. Como no exemplo:</p>
+                <div class="hexdec__demontracao">
+                    <ul class="hexdec__conversoes">
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">0000 = 0</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">0001 = 1</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">0010 = 2</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">0011 = 3</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">0100 = 4</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">0101 = 5</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">0110 = 6</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">0111 = 7</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">1000 = 8</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">1001 = 9</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">1010 = 10</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">1011 = 11</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">1100 = 12</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">1101 = 13</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">1110 = 14</p></li>
+                        <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">1111 = 15</p></li>
+                    </ul>
+
+                    <img class="hexdec__img" src="../images/Bases/binhex.png" alt="Demonstração da conta para conversão de um número hexadecimal para decimal.">
+                </div>
+            </div>
+
+            <div class="hexadecimal__dechex">
+                <h3 class="dechex__titulo">Binário > Hexadecimal</h3>
+                <p class="dechex__descricao">Para fazer a conversão de binário para hexadecimal, basta fazer a operção inversa da hexadecimal para binário, pegando de 4 em 4 bits e tranformando-os em números hexadecimais, depois basta organizalos que nem estão no binário e pronto, lembre-se de começar as conversões pelos 4 bits menos segnificativos (da direita) caso o número binário não tenha a quantidade de bits múltipla de 4, caso isso aconteça, basta fazer a <a href="#estencao-ancora" class="hexadecimal__link">extenção de bits</a> para completar até que fique em multiplo de 4.</p>
+                <img src="../images/Bases/hexbin.png" alt="Demonstração da conta para conversão de um número decimal para hexadecimal." class="dechex__img">
+            </div>
+        </div>
     </main>
     <footer class="rodape">
         <div class="conteudo-rodape">

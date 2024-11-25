@@ -548,3 +548,70 @@ em {
     font-weight: lighter;
     font-style: italic;
 }
+
+/*Hexadecimal*/
+
+.container__hexadecimal{
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hexadecimal__titulo{
+    font-size: 32px;
+    margin-bottom: 3px;
+}
+
+.hexadecimal__subtitulo{
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.hexadecimal__titulo-conversoes{
+    font-size: 28px;
+    font-style: italic;
+    margin: 30px 0;
+}
+
+.hexdec__titulo{
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 50;
+    margin-bottom: 10px;
+}
+
+.hexdec__demontracao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 60px;
+}
+
+.hexdec__conversoes{
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.hexdec__img{
+    width: 80%;
+}
+
+.hexadecimal__dechex {
+    margin-top: 40px;
+}
+
+.dechex__titulo {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 50;
+    margin-bottom: 10px;
+}
+
+.hexadecimal__link {
+    color: var(--color-link);
+}
+
