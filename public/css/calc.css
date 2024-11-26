@@ -1,0 +1,168 @@
+:root {
+    --links__nav:#000;
+    --background-cabecalho: #001E4B;
+    --background-nav: #D0D0D7;
+
+    --background-rodape: #001E4B;
+    --background-principal: #F7F7FF;
+    --background-secundario:#B6DBF2;
+
+    --color-titulos:#000;
+    --color-titulos2:#333;
+    --color-p:#000;
+    --color-p2:#333;
+    --color-link:#007bff;
+
+    --button-color:#001E4B;
+    --button-colorhover:#123364;
+}
+
+/* Menu Navegação */
+.navegacao__calc{
+    font-weight: bolder; 
+    text-decoration: underline;
+}
+
+/*Calculadora*/
+
+.ContainerCalc{
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.TituloCalc {
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0 30px 0;
+    font-weight: 700;
+    color: var(--color-titulos);
+}
+
+.LabelBase {
+    font-size: 28px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.SeletorBase {
+    width: 40%;
+    padding: 10px;
+    margin: 5px 15px;
+    font-size: 16px;
+}
+
+.LabelNum {
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+.EntraNum {
+    width: 30%;
+    padding: 10px;
+    margin: 5px 15px;
+    font-size: 16px;
+}
+
+.LabelCalc {
+    font-size: 28px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.SeletorCalc {
+    width: 40%;
+    padding: 10px;
+    margin: 5px 15px;
+    font-size: 16px;
+}
+
+/*Conversões*/
+
+.ContainerConversao{
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.TituloConversao {
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0 30px 0;
+    font-weight: 700;
+}
+
+.LabelNumConversao {
+    font-size: 28px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.EntraNumConversao {
+    width: 40%;
+    padding: 10px;
+    margin: 5px 15px;
+    font-size: 16px;
+}
+
+.LabelConversao {
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.SeletorConversao {
+    width: 30%;
+    padding: 10px;
+    margin: 5px 15px;
+    font-size: 16px;
+}
+
+.ResultadoConversao {
+    margin-bottom: 10px;
+}
+
+/*Gerais*/
+
+.Botao {
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+
+    background-color: var(--button-color);
+    color: var(--background-principal);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Botao:hover {
+    background-color: var(--button-colorhover);
+}
+
+.ResultadoBackground {
+    background-color: var(--background-secundario);
+}
+
+.ResultadoTitulo {
+    font-size: 28px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.ResultadoTexto {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+
+

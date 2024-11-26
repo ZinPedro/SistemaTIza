@@ -32,12 +32,11 @@
 }
  
 .introducao__titulo {
-    font-size: 24px;
-    font-weight: bold;
-    color: var(--color-titulos);
     text-align: center;
-    margin-bottom: 20px;
-     
+    font-size: 30px;
+    margin: 15px 0 30px 0;
+    font-weight: 700;
+    color: var(--color-titulos);
 }
  
 .introducao__descricao {

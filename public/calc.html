@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SistemaTIza - Tecnologia&Informação</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/calc.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container__cabecalho">
+            <img class="container__logoPUC" src="../images/Logo-PUC.png" alt="Logo da PUC campinas">
+            <h1 class="container__principalTitulo">SisemaTIza</h1>
+            <img class="container__logoSite" src="../images/Logo-SistemaTIza.png" alt="Logo do Site">
+        </div>
+        <div class="navegacao">
+            <nav>
+                <ul class="navegacao__menu">
+                    <li class="navegacao__inicio"><a class="navegacao__link" href="index.html">Inicio</a></li>
+                    <li class="navegacao__base"><a class="navegacao__link" href="bases.html">Bases Numéicas</a></li>
+                    <li class="navegacao__assembly"><a class="navegacao__link" href="/assembly">Assembly</a></li>
+                    <li class="navegacao__cpu"><a class="navegacao__link" href="/cpu">CPU</a></li>
+                    <li class="navegacao__exercicio"><a class="navegacao__link" href="/execicios">Exercicio</a></li>
+                    <li class="navegacao__calc"><a class="navegacao__link" href="calc.html">Calculadora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+
+    <main>
+        <div class="ContainerCalc">
+            <h1 class="TituloCalc">Calculadora de Bases Numéricas</h1>
+    
+            <!-- Seletor de base -->
+            <div class="SelecaoBase">
+                <label class="LabelBase" for="base">Selecione a base:</label>
+                <select class="SeletorBase" id="base">
+                    <option value="decimal">Decimal</option>
+                    <option value="binary">Binário</option>
+                    <option value="hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+    
+            <!-- Entrada de números -->
+            <div class="EntradaNumCalc">
+                <div class="Numeros">
+                    <label class="LabelNum" for="num1">Número 1:</label>
+                    <input class="EntraNum" type="text" id="num1" placeholder="Digite um número" />
+        
+                    <label class="LabelNum" for="num2">Número 2:</label>
+                    <input class="EntraNum" type="text" id="num2" placeholder="Digite um número" />
+                </div>
+                <label class="LabelCalc" for="operation">Operação:</label>
+                <select class="SeletorCalc" id="operation">
+                    <option value="add">Soma</option>
+                    <option value="subtract">Subtração</option>
+                    <option value="multiply">Multiplicação</option>
+                    <option value="divide">Divisão</option>
+                </select>
+            </div>
+
+            <!-- Botão de cálculo -->
+            <button class="Botao" id="calculate-btn">Calcular</button>
+
+        </div>
+        <div class="ResultadoBackground">
+            <div class="ContainerCalc">
+                <!-- Resultado -->
+                <div class="ResultadoCalc">
+                    <h2 class="ResultadoTitulo">Resultado:</h2>
+                    <p class="ResultadoTexto"><span id="result">-</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Conversão entre bases -->
+        <div class="ContainerConversao">
+            <h1 class="TituloConversao">Conversões entre Bases Numéricas</h1>
+            <label class="LabelNumConversao" for="convert-from">Número:</label>
+            <input class="EntraNumConversao" type="text" id="convert-from" placeholder="Digite o número" />
+
+            <div>
+                <label class="LabelConversao" for="convert-from">Converter de:</label>
+                <select class="SeletorConversao" id="base-from">
+                    <option value="decimal">Decimal</option>
+                    <option value="binary">Binário</option>
+                    <option value="hexadecimal">Hexadecimal</option>
+                </select>
+        
+                <label class="LabelConversao" for="convert-to">Para:</label>
+                <select class="SeletorConversao" id="base-to">
+                    <option value="decimal">Decimal</option>
+                    <option value="binary">Binário</option>
+                    <option value="hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+
+            <button class="Botao" id="convert-btn">Converter</button>
+        </div>
+        <div class="ResultadoBackground ResultadoConversao">
+            <div class="ContainerConversao">
+                <!-- Resultado -->
+                <div class="ResultadoConversao">
+                    <h2 class="ResultadoTitulo">Resultado:</h2>
+                    <p class="ResultadoTexto"><span id="conversion-result">-</span></p>
+                </div>
+            </div>
+        </div>
+    
+        <script src="calc.js"></script>
+    </main>
+
+    <footer class="rodape">
+        <div class="conteudo-rodape">
+            <p>Pedro Henrique Coan Zin</p>
+            <p>Orientadores: José Matias Lemes e Ricardo Pannain</p>
+            <p>Projeto Integrador - Desenvolvimento Web</p>
+            <img src="../images/Logo-PUC.png" alt="Logo PUC" class="logo-puc">
+        </div>
+    </footer>
+</body>
+</html>
