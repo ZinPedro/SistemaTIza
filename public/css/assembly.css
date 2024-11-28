@@ -1,0 +1,64 @@
+:root {
+    --links__nav:#000;
+    --background-cabecalho: #001E4B;
+    --background-nav: #D0D0D7;
+
+    --background-rodape: #001E4B;
+    --background-principal: #F7F7FF;
+    --background-secundario:#B6DBF2;
+
+    --color-titulos:#000;
+    --color-titulos2:#333;
+    --color-p:#000;
+    --color-p2:#333;
+    --color-link:#007bff;
+}
+
+[class*="Titulo"] {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color-titulos);
+    margin-bottom: 20px;
+}
+
+[class*="Descricao"] {
+    margin-right: 2rem;
+    font-size: 19px;
+    color: var(--color-p);
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+[class*="Img"] {
+    width: 100%;
+}
+
+/* Menu Navegação */
+.navegacao__assembly{
+    font-weight: bolder; 
+    text-decoration: underline;
+}
+
+/*Conteudo*/
+
+.Titulo {
+    margin: 2rem;
+    margin-top: 2.5rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--color-titulos);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Container {
+    width: 900px;
+    margin: 5% auto 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+.ContainerTitulo {
+    text-align: center;
+    font-style: italic;
+}
+ 

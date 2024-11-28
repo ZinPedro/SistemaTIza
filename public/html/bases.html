@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SistemaTIza - Tecnologia&Informação</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bases.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bases.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap" rel="stylesheet">
 
@@ -17,19 +17,18 @@
 <body>
     <header class="cabecalho">
         <div class="container__cabecalho">
-            <img class="container__logoPUC" src="../images/Logo-PUC.png" alt="Logo da PUC campinas">
-            <h1 class="container__principalTitulo">SisemaTIza</h1>
-            <img class="container__logoSite" src="../images/Logo-SistemaTIza.png" alt="Logo do Site">
+            <img class="container__logoPUC" src="../../images/Logo-PUC.png" alt="Logo da PUC campinas">
+            <h1 class="container__principal-titulo">SisemaTIza</h1>
+            <img class="container__logoSite" src="../../images/Logo-SistemaTIza.png" alt="Logo do Site">
         </div>
         <div class="navegacao">
             <nav>
                 <ul class="navegacao__menu">
                     <li class="navegacao__inicio"><a class="navegacao__link" href="index.html">Inicio</a></li>
-                    <li class="navegacao__base"><a class="navegacao__link" href="/basesNumericas">Bases Numéicas</a>
-                    </li>
-                    <li class="navegacao__assembly"><a class="navegacao__link" href="/assembly">Assembly</a></li>
-                    <li class="navegacao__cpu"><a class="navegacao__link" href="/cpu">CPU</a></li>
-                    <li class="navegacao__exercicio"><a class="navegacao__link" href="/execicios">Exercicio</a></li>
+                    <li class="navegacao__base"><a class="navegacao__link" href="#">Bases Numéicas</a></li>
+                    <li class="navegacao__assembly"><a class="navegacao__link" href="assembly.html">Assembly</a></li>
+                    <li class="navegacao__cpu"><a class="navegacao__link" href="cpu.html">CPU</a></li>
+                    <li class="navegacao__exercicio"><a class="navegacao__link" href="exercicios.html">Exercicio</a></li>
                     <li class="navegacao__calc"><a class="navegacao__link" href="calc.html">Calculadora</a></li>
                 </ul>
             </nav>
@@ -37,6 +36,28 @@
     </header>
 
     <main>
+        <div class="ContainerMenu">
+            <div class="MenuHamburguer">
+                <div class="HamburguerLinha"></div>
+                <div class="HamburguerLinha"></div>
+                <div class="HamburguerLinha"></div>
+            </div>
+            <nav class="MenuNavegacao">
+                <h2 class="MenuTitulo">Módulos</h2>
+                <ul class="MenuLista">
+                    <li class="MenuItem MenuIntro">Introdução</li>
+                    <li class="MenuItem MenuBinario">Sistema Binário</li>
+                    <ul>
+                        <li class="MenuItem">Introdução aos Binários</li>
+                        <li class="MenuItem">Conversões</li>
+                        <li class="MenuItem">Sinalização (negativo/positivo)</li>
+                        <li class="MenuItem">Operações</li>
+                        <li class="MenuItem">Ponto Flutuante (números com vírgula)</li>
+                    </ul>
+                    <li class="MenuItem MenuHexa">Hexadecimal</li>
+                </ul>
+            </nav>
+        </div>
 
         <h1 class="titulo">Bases Numéricas</h1>
 
@@ -118,7 +139,7 @@
                         equivale a X(0 ou 1) vezes 2^0, o segundo X(0 ou 1) vezes 2^1, o terceiro X(0 ou 1) vezes 2^2 e
                         assim por diante.
                     </p>
-                    <img class="bindec__img" src="../images/Bases/BinDec.png"
+                    <img class="bindec__img" src="../../images/Bases/BinDec.png"
                         alt="Demonstração do cálculo para conversão de binário para decimal">
             </div>
 
@@ -129,7 +150,7 @@
                         de divisões sucessivas, que consiste em dividir o número por dois até que não seja mais possível
                         dividir o dividendo por dois, então o valor do último quociente é o primeiro (bit mais
                         significativo (MSB)) bit, e os restos das divisões são os seguintes, como no exemplo: </p>
-                    <img class="decbin__img" src="../images/Bases/DecBin.png"
+                    <img class="decbin__img" src="../../images/Bases/DecBin.png"
                         alt="Demonstração do cálculo para conversão de decimal para binário">
             </div>
         </div>
@@ -154,7 +175,7 @@
                     No metódo de sinal e magnetude o bit mais significativo representa o sinal do número ao invés de
                     representar um valor, onde caso seja 1 o número é negativo e caso seja 0, é positivo.
                 </p>
-                <img src="../images/Bases/SeM.png"
+                <img src="../../images/Bases/SeM.png"
                     alt="Demonstração de um número binário positivo e um negativo em Sinal e Magnetude"
                     class="SeM__img">
             </div>
@@ -164,7 +185,7 @@
                     No metódo de complemento de dois, o bit mais significativo representa o próprio valor, porém
                     negativo.
                 </p>
-                <img src="../images/Bases/C2.png"
+                <img src="../../images/Bases/C2.png"
                     alt="Demonstração de um número binário positivo e um negativo em Complemento de 2" class="C2__img">
                 <div class="C2__conversao">
                     <h4 class="C2__conversao__titulo">Conversão Positivo <> Negativo em Complemento de dois (C2)</h4>
@@ -177,7 +198,7 @@
                         Para fazer está conversão basta fazer o “complemento de 1” do número, ou seja, inverter o
                         binário (onde é 1 vira 0 e onde é 0 vira 1) e depois somar um ao resultado.
                     </p>
-                    <img src="../images/Bases/C2_conversao.png"
+                    <img src="../../images/Bases/C2_conversao.png"
                         alt="Demonstração do cáculo para tranformar números em Complemento de 2 de positivos para negativos e vice-versa"
                         class="C2__conversao__img">
                 </div>
@@ -195,7 +216,7 @@
                             No caso da soma e magnetude basta adcionar zeros atrás do primeiro bit, mantendo assim, o
                             sinal do número.
                         </p>
-                        <img src="../images/Bases/extençaoSeM.png"
+                        <img src="../../images/Bases/extençaoSeM.png"
                             alt="Demonstração da extenção de bits em números binários em Sinal e Magnetude"
                             class="extencao__SeM__img">
                     </div>
@@ -204,7 +225,7 @@
                         <p class="extencao__C2__descricao">
                             Já no caso do complemento de dois, é estendido o primeiro bit do número, como no exemplo:
                         </p>
-                        <img src="../images/Bases/extençaoC2.png"
+                        <img src="../../images/Bases/extençaoC2.png"
                             alt="Demonstração da extenção de bits em números binários em Complemento de 2"
                             class="extencao__C2__img">
                     </div>
@@ -230,7 +251,7 @@
                             <h5 class="RegrasAd__cartao__titulo">0 + 0 = 0</h5>
                             <p class="RegrasAd__cartao__descricao">Assim como qualquer outra base númerica, nos binários 0 +
                                 0 e igual a 0 pois representm a ausência de valor</p>
-                            <img src="../images/Bases/Ad00.png" alt="Demontração de conta em binário de 00 + 00 = 00"
+                            <img src="../../images/Bases/Ad00.png" alt="Demontração de conta em binário de 00 + 00 = 00"
                                 class="RegrasAd__cartao__img img00">
                         </div>
                         <div class="RegrasAd__cartao">
@@ -238,21 +259,21 @@
                             <h5 class="RegrasAd__cartao__titulo">1 + 0 = 1</h5>
                             <p class="RegrasAd__cartao__descricao">Nesse caso, tabém semelhante a outras bases numéricas, 1
                                 + 0 ou vice versa resulta em um</p>
-                            <img src="../images/Bases/Ad01.png" alt="Demontração de conta em binário de 00 + 00 = 00"
+                            <img src="../../images/Bases/Ad01.png" alt="Demontração de conta em binário de 00 + 00 = 00"
                                 class="RegrasAd__cartao__img img01">
                         </div>
                         <div class="RegrasAd__cartao">
                             <h5 class="RegrasAd__cartao__titulo">1 + 1 = 0 + carry bit</h5>
                             <p class="RegrasAd__cartao__descricao">No caso do 1+1, o reultado seria 0 porém seria adcionado
                                 um “vai um” ou carry bit em cima do próximo bit para somar com ele.</p>
-                            <img src="../images/Bases/Ad11.png" alt="Demontração de conta em binário de 00 + 00 = 00"
+                            <img src="../../images/Bases/Ad11.png" alt="Demontração de conta em binário de 00 + 00 = 00"
                                 class="RegrasAd__cartao__img img11">
                         </div>
                         <div class="RegrasAd__cartao">
                             <h5 class="RegrasAd__cartao__titulo">1 + 1 + 1 = 1 + carry bit</h5>
                             <p class="RegrasAd__cartao__descricao">Quando ouver uma soma de 1 + 1 com um carry bit em cima
                                 fechando 1 + 1 + 1, o resultado será um e será adcionado um carry bit à próxima soma.</p>
-                            <img src="../images/Bases/Ad111.png" alt="Demontração de conta em binário de 00 + 00 = 00"
+                            <img src="../../images/Bases/Ad111.png" alt="Demontração de conta em binário de 00 + 00 = 00"
                                 class="RegrasAd__cartao__img img111">
                         </div>
                     </div>
@@ -272,7 +293,7 @@
                     </p>
                     <p class="adicaoSubtracao__exemplo">Exemplos</p>
                     <p class="adicaoSubtracao__conta">1) 37 + 15 = 52</p>
-                    <img class="adicaoSubtracao__img" src="../images/Bases/adicao_sem.png" alt="Demonstração de conta para adição de números binários em Sinal e Magnetude">
+                    <img class="adicaoSubtracao__img" src="../../images/Bases/adicao_sem.png" alt="Demonstração de conta para adição de números binários em Sinal e Magnetude">
                     <p class="adicaoSubtracao__conta">2) 43 - 28 = 15</p>
                     <p class="adicaoSubtracao__descricao">
                         No caso da subtração, a conta é feita que nem as de números decimais, onde, se o algarismo do número maior (de cima) for menor que o de baixo ele recebe um carry emprestado do algarismo seguinte. 
@@ -287,9 +308,9 @@
                             </p>
                         </div>
                     </div>
-                    <img class="adicaoSubtracao__img" src="../images/Bases/subtracao_sem.png" alt="Demonstração de conta para subtração de números binários em Sinal e Magnetude">
+                    <img class="adicaoSubtracao__img" src="../../images/Bases/subtracao_sem.png" alt="Demonstração de conta para subtração de números binários em Sinal e Magnetude">
                     <p class="adicaoSubtracao__conta">3) 98 + 163 = 33</p>
-                    <img class="adicaoSubtracao__img" src="../images/Bases/overflow_sem.png" alt="Demonstração de conta para adição de números binários em Sinal e Magnetude em que o resultado dá Overflow">
+                    <img class="adicaoSubtracao__img" src="../../images/Bases/overflow_sem.png" alt="Demonstração de conta para adição de números binários em Sinal e Magnetude em que o resultado dá Overflow">
                     <p class="adicaoSubtracao__descricao AdSubOverflow">Overflow</p>
                 </div>
             
@@ -300,11 +321,11 @@
                     </p>
                     <p class="adicaoSubtracao__exemplo">Exemplos</p>
                     <p class="adicaoSubtracao__conta">1) 45 + 22 = 67</p>
-                    <img class="adicaoSubtracao__img" src="../images/Bases/adicao_c2.png" alt="Demonstração de conta para adição de números binários em Complemento de 2">
+                    <img class="adicaoSubtracao__img" src="../../images/Bases/adicao_c2.png" alt="Demonstração de conta para adição de números binários em Complemento de 2">
                     <p class="adicaoSubtracao__conta">2) 67 - 39 = 28</p>
-                    <img class="adicaoSubtracao__img" src="../images/Bases/subtracao_c2.png" alt="Demonstração de conta para subtração de números binários em Complemento de 2">
+                    <img class="adicaoSubtracao__img" src="../../images/Bases/subtracao_c2.png" alt="Demonstração de conta para subtração de números binários em Complemento de 2">
                     <p class="adicaoSubtracao__conta">3) - 79 - 72 = -151</p>
-                    <img class="adicaoSubtracao__img" src="../images/Bases/overflow_c2.png" alt="Demonstração de conta para adição de números binários em Complemento de 2 em que o reultado dá Overflow">
+                    <img class="adicaoSubtracao__img" src="../../images/Bases/overflow_c2.png" alt="Demonstração de conta para adição de números binários em Complemento de 2 em que o reultado dá Overflow">
                     <p class="adicaoSubtracao__descricao AdSubOverflow">Overflow</p>
                 </div>
             </div>
@@ -312,7 +333,7 @@
             <div class="container__multdiv">
                 <h3 class="multdiv__titulo">Multiplicação e Divisão</h3>
                 <p class="multdiv__descricao">As contas de Multiplicação e divisão com números binários são bem semelhantes as que aprendemos na escola com os decimais, a única diferença é que todas as operações são com 0s e 1s.</p>
-                <img src="../images/Bases/multdiv.png" alt="Demonstração de conta para multiplicação e divisão de números binários" class="multdiv__img">
+                <img src="../../images/Bases/multdiv.png" alt="Demonstração de conta para multiplicação e divisão de números binários" class="multdiv__img">
             </div>
 
         <div class="container__pFlutuante">
@@ -332,14 +353,14 @@
             </div>
             <div class="pFlutuante__demonstracao">
                 <h3 class="pFlutuante-demonstracao__titulo">Precisão Simples:</h3>
-                <img class="pFlutuante-demonstracao__img" src="../images/Bases/pflutuante_simples.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
+                <img class="pFlutuante-demonstracao__img" src="../../images/Bases/pflutuante_simples.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
                 <h4 class="pFlutuante-demonstracao-deslocamento__titulo">Deslocamento:</h4>
                 <p class="pFlutuante-demonstracao-deslocamento__descricao">Obs: É como se fosse uma notação científica, mas em binário</p>
-                <img class="pFlutuante-demonstracao__img" src="../images/Bases/pflutuante_simples_deslocamento.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
+                <img class="pFlutuante-demonstracao__img" src="../../images/Bases/pflutuante_simples_deslocamento.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
                 <h3 class="pFlutuante-demonstracao__titulo">Precisão Dupla:</h3>
-                <img class="pFlutuante-demonstracao__img" src="../images/Bases/pflutuante_dupla.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
+                <img class="pFlutuante-demonstracao__img" src="../../images/Bases/pflutuante_dupla.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
                 <h4 class="pFlutuante-demonstracao-deslocamento__titulo">Deslocamento:</h4>
-                <img class="pFlutuante-demonstracao__img" src="../images/Bases/pflutuante_dupla_deslocamento.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
+                <img class="pFlutuante-demonstracao__img" src="../../images/Bases/pflutuante_dupla_deslocamento.png" alt="Demonstração do funcionamento do ponto flutuante em precisão simples.">
             </div>
         </div>
 
@@ -372,14 +393,14 @@
                         <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">F = 15</p></li>
                     </ul>
 
-                    <img class="hexdec__img" src="../images/Bases/hexdec.png" alt="Demonstração da conta para conversão de um número hexadecimal para decimal.">
+                    <img class="hexdec__img" src="../../images/Bases/hexdec.png" alt="Demonstração da conta para conversão de um número hexadecimal para decimal.">
                 </div>
             </div>
 
             <div class="hexadecimal__dechex">
                 <h3 class="dechex__titulo">Decimal > Hexadecimal</h3>
                 <p class="dechex__descricao">A conversão inversa, do número decimal para o número hexadecimal pode ser feita utilizando a técnica de divisões sucessivas, que consiste em dividir o número por 16 até que não seja mais possível dividir o dividendo por 16, então o valor do último quociente é o primeiro (bit mais significativo (MSB)) bit, e os restos das divisões são os seguintes, como no exemplo:</p>
-                <img src="../images/Bases/dechex.png" alt="Demonstração da conta para conversão de um número decimal para hexadecimal." class="dechex__img">
+                <img src="../../images/Bases/dechex.png" alt="Demonstração da conta para conversão de um número decimal para hexadecimal." class="dechex__img">
             </div>
 
             <h3 class="hexadecimal__titulo-conversoes">Binário <> Hexadecimal</h3>
@@ -407,14 +428,14 @@
                         <li class="hexdec__conversoes-item"><p class="hexdec__conversoes-texto">1111 = 15</p></li>
                     </ul>
 
-                    <img class="hexdec__img" src="../images/Bases/binhex.png" alt="Demonstração da conta para conversão de um número hexadecimal para decimal.">
+                    <img class="hexdec__img" src="../../images/Bases/binhex.png" alt="Demonstração da conta para conversão de um número hexadecimal para decimal.">
                 </div>
             </div>
 
             <div class="hexadecimal__dechex">
                 <h3 class="dechex__titulo">Binário > Hexadecimal</h3>
                 <p class="dechex__descricao">Para fazer a conversão de binário para hexadecimal, basta fazer a operção inversa da hexadecimal para binário, pegando de 4 em 4 bits e tranformando-os em números hexadecimais, depois basta organizalos que nem estão no binário e pronto, lembre-se de começar as conversões pelos 4 bits menos segnificativos (da direita) caso o número binário não tenha a quantidade de bits múltipla de 4, caso isso aconteça, basta fazer a <a href="#estencao-ancora" class="hexadecimal__link">extenção de bits</a> para completar até que fique em multiplo de 4.</p>
-                <img src="../images/Bases/hexbin.png" alt="Demonstração da conta para conversão de um número decimal para hexadecimal." class="dechex__img">
+                <img src="../../images/Bases/hexbin.png" alt="Demonstração da conta para conversão de um número decimal para hexadecimal." class="dechex__img">
             </div>
         </div>
     </main>
@@ -423,6 +444,6 @@
             <p>Pedro Henrique Coan Zin</p>
             <p>Orientadores: José Matias Lemes e Ricardo Pannain</p>
             <p>Projeto Integrador - Desenvolvimento Web</p>
-            <img src="../images/Logo-PUC.png" alt="Logo PUC" class="logo-puc">
+            <img src="../../images/Logo-PUC.png" alt="Logo PUC" class="logo-puc">
         </div>
     </footer>
