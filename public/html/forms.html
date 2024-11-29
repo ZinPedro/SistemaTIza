@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SistemaTIza - Tecnologia&Informação</title>
+    <title>SistemaTIza - Suporte</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/exercicios.css">
+    <link rel="stylesheet" href="../css/forms.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap" rel="stylesheet">
 
@@ -26,27 +26,34 @@
                     <li class="navegacao__base"><a class="navegacao__link" href="bases.html">Bases Numéicas</a></li>
                     <li class="navegacao__assembly"><a class="navegacao__link" href="assembly.html">Assembly</a></li>
                     <li class="navegacao__cpu"><a class="navegacao__link" href="cpu.html">CPU</a></li>
-                    <li class="navegacao__exercicio"><a class="navegacao__link" href="#">Exercicio</a></li>
+                    <li class="navegacao__exercicio"><a class="navegacao__link" href="exercicios.html">Exercicio</a></li>
                     <li class="navegacao__calc"><a class="navegacao__link" href="calc.html">Calculadora</a></li>
                 </ul>
             </nav>
         </div>
     </header> 
+    <main class="corpo">
+        <h2 class="corpo__titulo">Têm alguma sugestão de melhoria ou dúvida?<br> Digite Aqui!</br></h2>
+        <p class="corpo__texto">Basta preencher o formulário.</p>
+        <form class="formulario" action="https://formsubmit.co/pedro.h.c.zin@gmail.com" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="name" placeholder="Nome" required >
 
-    <main>
-        <h1 class="Titulo">Exercicios</h1>
-        <div class="Container">
-            <h2 class="ContainerTitulo">Está página ainda está em desenvolvimento.</h2>
-            <img class="ContainerImg" src="../../images/desenvolvimento.png" alt="Imagem ilustrando que a página está em desenvolvimento">
-        </div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digiteseuemail@email.com" required >
+
+            <label for="projeto">Sugestão ou Dúvida:</label>
+            <input type="text" id="projeto" name="projeto" placeholder="Descreva seu projeto" required >
+ 
+            <button type="submit">Enviar</button>
+        </form>
     </main>
-
     <footer class="rodape">
         <div class="conteudo-rodape">
             <p>Pedro Henrique Coan Zin</p>
             <p>Orientadores: José Matias Lemes e Ricardo Pannain</p>
             <p>Projeto Integrador - Desenvolvimento Web</p>
-            <p><a href="forms.html">Suporte</a></p> 
+            <p><a href="#">Suporte</a></p> 
             <img src="../../images/Logo-PUC.png" alt="Logo PUC" class="logo-puc">
         </div>
     </footer>

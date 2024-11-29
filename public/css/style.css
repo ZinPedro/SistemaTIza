@@ -11,7 +11,9 @@
     --color-titulos2:#333;
     --color-p:#000;
     --color-p2:#333;
+    --color-pclaro: #F7F7FF;
     --color-link:#007bff;
+
 }
 
 body {
@@ -86,7 +88,7 @@ body {
 
 .rodape {
     background-color: var(--background-rodape);  
-    color: var(--background-principal);
+    color: var(--color-pclaro);
     text-align: center;
     padding: 20px 0;
     font-family: 'Inknut Antiqua', serif;
@@ -95,6 +97,12 @@ body {
 .conteudo-rodape p { 
     font-size: 16px;
     line-height: 1.6;
+}
+
+.conteudo-rodape a { 
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-pclaro);
 }
 
 .logo-puc {
