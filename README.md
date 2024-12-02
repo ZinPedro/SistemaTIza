@@ -13,8 +13,8 @@
 ## Desenvolvimento
 
   ### Principal
-    <img src="images/Readme/Principal.png">
-
+  <img src="images/Readme/Principal.png" alt="Print Página Principal do Site">
+    A página principal possuí em seu contaúdo uma breve introdução ao site e um texto falando sobre o projeto e montagem do site.
 
   ### Bases
 
