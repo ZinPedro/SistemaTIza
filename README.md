@@ -42,11 +42,11 @@
 
 ## Apoio 
 
-  [Figma](https://www.figma.com/design/oAWsGuzdcZCts3ZSqjN3Ku/Projeto-Integrador?node-id=1-5&m=dev&t=1XEFGNzMoneLCO9k-1) 
+  [Figma](https://www.figma.com/design/oAWsGuzdcZCts3ZSqjN3Ku/Projeto-Integrador?node-id=1-5&m=dev&t=1XEFGNzMoneLCO9k-1):
   https://www.figma.com/design/oAWsGuzdcZCts3ZSqjN3Ku/Projeto-Integrador?node-id=1-5&m=dev&t=1XEFGNzMoneLCO9k-1
 
-  [Github](https://github.com/ZinPedro/SistemaTIza)
+  [Github](https://github.com/ZinPedro/SistemaTIza):
   https://github.com/ZinPedro/SistemaTIza
   
-  [Trello](https://trello.com/b/OkUVAAtK/projeto-integrador-desenvolvimentowebpucc2024)
+  [Trello](https://trello.com/b/OkUVAAtK/projeto-integrador-desenvolvimentowebpucc2024):
   https://trello.com/b/OkUVAAtK/projeto-integrador-desenvolvimentowebpucc2024
