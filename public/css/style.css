@@ -110,30 +110,3 @@ body {
     width: 120px; 
 }
 
-
-/*Menu Suspenso*/
-
-.ContainerMenu {
-    display: none;
-    position: relative;
-}
-
-.MenuHamburguer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
-    width: 80px;
-    height: 50px;
-    cursor: pointer;
-    background-color: var(--background-cabecalho);
-    padding: 30px 20px 30px 15px;
-    border-radius: 2px;
-}
-
-.HamburguerLinha {
-    width: 100%;
-    height: 4px;
-    background-color: white;
-    border-radius: 2px;
-}
